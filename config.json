@@ -1,0 +1,16 @@
+{
+  "API_KEY": "<API Key Goes Here>",
+  "LISTEN_KEY_URL": "https://api.binance.com/api/v3/userDataStream",
+  "STREAM_URL": "wss://stream.binance.com:9443/ws/",
+  "STREAM_IDS": [
+    "btcusdt@aggTrade",
+    "ethusdt@aggTrade",
+    "btcusdt@trade",
+    "ethusdt@trade",
+    "btcusdt@kline_1s",
+    "ethusdt@kline_1s"
+  ],
+  "LOG_INTERVAL": 60000,
+  "LOG_LEVEL": "debug",
+  "KEY_REFRESH_INTERVAL": 2700000
+}
